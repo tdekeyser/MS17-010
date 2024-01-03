@@ -980,7 +980,7 @@ def send_and_execute(conn, arch):
 	smbConn = conn.get_smbconnection()
 
 	filename = "%s.exe" % random_generator(6)
-	print "Sending file %s..." % filename
+	print("Sending file %s..." % filename)
 
 
     #In some cases you should change remote file location
